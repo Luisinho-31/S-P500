@@ -1,7 +1,5 @@
 # S-P500
-Serie de tiempo para cada acción del S&amp;P 500 utilizando modelos Arima y prophet 
-
-
+Serie de tiempo para cada acción del S&amp;P 500 utilizando modelos Arima y Prophet 
 
 # S&P 500 Time Series Forecasting 
 Este proyecto utiliza modelos de series de tiempo para predecir el comportamiento del índice S&P 500, empleando la librería Prophet. Está desarrollado en Python con Google Colab.
@@ -20,6 +18,10 @@ Este proyecto utiliza modelos de series de tiempo para predecir el comportamient
 
 ## Fuente de datos:
 Kaagle:  https://www.kaggle.com/datasets/camnugent/sandp500
+
+## Dataset
+Se tiene una variedad de archivos, el archivo que usaremos es el que contiene todas las empresas, el tamaño que se tiene es de 619040 registros, con 7 columnas
+al eveluar la calidad de datos nos encontramos 11 valores nulos, pero es una cantidad muy pequeña para la cantidad de registros que tenemos, se realizó una conversion de tipo de dato en la columna de tiempo, para un mejor manejo
 
 ## Objetivo 
 El objetivo principal es realizar la prediccion a travez de series de tiempo, de acciones de las 500 empresas mas grandes
@@ -61,6 +63,6 @@ Ejemplo:
 > Valor promedio del índice = 1259  
 > Error relativo = **1.67%**
 
-
+--
 ## Autor
 Luis Fernando Castillo https://github.com/Luisinho-31
