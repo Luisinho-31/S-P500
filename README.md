@@ -4,9 +4,8 @@ Serie de tiempo para cada acción del S&amp;P 500 utilizando modelos Arima y pro
 
 
 # S&P 500 Time Series Forecasting 
-Este proyecto utiliza modelos de series de tiempo para predecir el comportamiento del índice S&P 500, empleando la librería **[Prophet]** de Meta. Está desarrollado en Python con Google Colab.
+Este proyecto utiliza modelos de series de tiempo para predecir el comportamiento del índice S&P 500, empleando la librería Prophet. Está desarrollado en Python con Google Colab.
 
----
 
 ## Herramientas utilizadas
 
